@@ -1,13 +1,13 @@
 import os
 
 class Config(object):
-    API_ID = int(os.environ.get("APP_ID", "6435225"))
-    API_HASH = os.environ.get("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    API_ID = int(os.environ.get("APP_ID", "28382321"))
+    API_HASH = os.environ.get("API_HASH", "a1340b7972df975470aee26ea4ad6bfb")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5895084879:AAEfB-A862ol9lU0LyIh1HWNW3GfJ9JCOb8")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BAGxFHEALaWH-2dgzFxhbD6FhQTeciYcUXM81Fpv0dsTRqLuTgZTryodLGxhdsKM1X8KoHSGxN_NozXpCmxlNK7xvzIqEKWLdR1q2n8rWwvZ7H9_1XzUq1Q7jXis5QbtSetK2UECkSbGXg6raRUnJxb3uXs2l55mZnrtWbvo7eUEugZcb4r31OrOjGWLPSGqL3rlDp6QDltqUFnk7LhCUnFdDl68k7AZmENhEl1en874CBHI61dLuxE8bRATWociHncPFRNiJMKRq1Z3Go3IxDzYIdrpxG_OhaiyT_1HWFb0ijHqByb0tBPXHw51rIVYn5JJ6E2el59gsEfkBALBweEkHWS7egAAAAFI65DaAA")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "vpstrialbot")
     SUPPORT = os.environ.get("SUPPORT", "TheSupportChat") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "TheUpdatesChannel") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
